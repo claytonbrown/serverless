@@ -35,7 +35,9 @@
   },
   "scripts": {
     "test": "mocha tests/all",
-    "lint": "eslint . || true"
+    "lint": "eslint . || true",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "chai": "^3.2.0",
@@ -68,6 +70,8 @@
     "replaceall": "^0.1.6",
     "shelljs": "^0.6.0",
     "shortid": "^2.2.2",
-    "traverse": "^0.6.6"
-  }
+    "traverse": "^0.6.6",
+    "snyk": "^1.192.3"
+  },
+  "snyk": true
 }
