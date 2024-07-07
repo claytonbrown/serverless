@@ -64,7 +64,7 @@
     "minimist": "^1.2.0",
     "moment": "^2.11.2",
     "node-zip": "^1.1.0",
-    "prompt": "^0.3.0",
+    "prompt": "^1.2.0",
     "replaceall": "^0.1.6",
     "shelljs": "^0.6.0",
     "shortid": "^2.2.2",
